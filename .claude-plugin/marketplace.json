@@ -1,0 +1,16 @@
+{
+  "name": "bmad-brainstorm-marketplace",
+  "description": "BMAD Brainstorming plugin marketplace",
+  "owner": { "name": "BMAD Method" },
+  "plugins": [
+    {
+      "name": "bmad-brainstorm",
+      "description": "Software development brainstorming facilitator with 18 proven techniques",
+      "version": "1.0.0",
+      "source": "..",
+      "author": { "name": "BMAD Method" },
+      "category": "productivity",
+      "tags": ["brainstorming", "ideation", "software-development"]
+    }
+  ]
+}
