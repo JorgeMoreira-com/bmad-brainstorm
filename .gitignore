@@ -1,0 +1,11 @@
+# Session output (user-generated, not part of the plugin)
+brainstorm-sessions/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~

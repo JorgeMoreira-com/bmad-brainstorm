@@ -6,19 +6,21 @@ Software development brainstorming facilitator with **18 proven techniques** org
 
 ```bash
 # Add the marketplace
-/plugin marketplace add <repo-url>
+/plugin marketplace add JorgeMoreira-com/bmad-brainstorm
 
 # Install the plugin
-/plugin install bmad-brainstorm
+/plugin install bmad-brainstorm@bmad-brainstorm-marketplace
 ```
 
 ## Usage
 
+Skills are namespaced under the plugin name:
+
 ```bash
-/brainstorm                  # Full interactive setup — topic, goal, technique selection
-/brainstorm <topic>          # Skip setup, use topic directly → technique selection
-/brainstorm continue         # Resume the most recent session
-/brainstorm five-whys        # Jump to a specific technique
+/bmad-brainstorm:brainstorm                  # Full interactive setup
+/bmad-brainstorm:brainstorm <topic>          # Skip setup, use topic directly
+/bmad-brainstorm:brainstorm continue         # Resume the most recent session
+/bmad-brainstorm:brainstorm five-whys        # Jump to a specific technique
 ```
 
 ## The 18 Techniques
@@ -68,7 +70,7 @@ All session output is saved to `brainstorm-sessions/YYYY-MM-DD-<topic>.md`.
 
 ## Session Continuity
 
-Sessions are automatically saved as markdown files. Use `/brainstorm continue` to resume where you left off. The facilitator detects your progress and picks up from the right phase.
+Sessions are automatically saved as markdown files. Use `/bmad-brainstorm:brainstorm continue` to resume where you left off. The facilitator detects your progress and picks up from the right phase.
 
 ## Coexistence
 
